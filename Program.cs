@@ -16,8 +16,13 @@ namespace Task2
             double cos = Math.Cos(angleInRadians);
 
 
+
             Console.WriteLine("sin(15) =" + Math.Round(sin,3));
             Console.WriteLine("cos(15) =" + Math.Round(cos,3));
+
+            Console.WriteLine("");
+            Console.WriteLine("Дорогой пользователь, введи значения угла в градусах ♥ ");
+            angleInDegrees = double.Parse(Console.ReadLine());
 
             Console.ReadKey();
         }
